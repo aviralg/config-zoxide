@@ -1,0 +1,4 @@
+#!/usr/bin/env fish
+
+curl -sS https://webinstall.dev/zoxide | bash
+

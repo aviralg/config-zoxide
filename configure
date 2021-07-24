@@ -1,0 +1,6 @@
+#!/usr/bin/env fish
+
+set CUR_DIR (realpath (dirname (status --current-filename)))
+mkdir -p ~/.config
+mkdir -p ~/.config/fish/conf.d
+echo "zoxide init fish | source" > ~/.config/fish/conf.d/zoxide.fish
